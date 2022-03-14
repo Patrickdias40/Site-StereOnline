@@ -1,0 +1,574 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+p {
+	font-size: 25px;
+}
+h1 {
+	font-size: 50px;
+}
+/* Cabeçalho */
+header {
+	width: 100%;
+	height: auto;
+	background: black;
+	padding: 5px 0px 5px 0px;
+	position: absolute;
+}
+#Cab {
+	width: 95%;
+	height: 100%;
+	margin: auto;
+	padding: 10px 5px 10px 5px;
+	display: flex;
+	flex-direction:  row;
+	align-items: center;
+	justify-content: space-between;
+	background: black;
+	color: white;
+}
+#Cab-Logo {
+	border: 1px solid darkred;
+	width: 40px;
+	height: 40px;
+}
+#img_Logo {
+	border: 1px solid darkred;
+	width: 40px;
+	height: 40px;
+}
+#Cab-nome {
+	border: 1px solid rosybrown;
+	width: 300px;
+	height: 40px;
+}
+#Cab-Conta {
+	width: auto;
+	height: auto;
+}
+#brs_Conta {
+	float: right;
+	border: 1px solid purple;
+	border-radius: 3px;
+	width: 30px;
+	height: 27px;
+}
+.brs {
+	border: 1px solid white;
+	width: 18px;
+	height: 0px;
+	margin: 5px;
+}
+/* F */
+
+#espaco {
+	width: 100%;
+	height: 80px;
+	background: rebeccapurple;
+}
+
+.checkpont {
+	width: 10%;
+	margin: auto;
+}
+
+
+/* Main */
+main {
+	width: 100%;
+	height: 100%;
+	background: white;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+/* F */
+
+/* Linhas */
+.Linha {
+	border: 1px solid #451BC2;
+	margin: 60px 20px 0px 20px;
+}
+.sub_Linha {
+	width: 40%;
+	height: 15px;
+	background: #451BC2;
+	margin: auto;
+	margin-bottom: 55px;
+	border-radius: 1px;
+}
+/* F */
+
+/* Atalhos principais(Demonstração) */
+/* Demons (Parte NOVA) */
+.Demonst-t {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    background: linear-gradient( to bottom right, rgb(37, 5, 68), #002076, rgb(37, 5, 68));
+    border: 2px solid rgb(37, 5, 68);
+    border-radius: 5px;
+	box-shadow: 0 0 10px black;
+}
+.Demonst {
+    width: 85%;
+    height: auto;
+    overflow-x: hidden;
+	margin: auto;
+}
+.ImgDemonst {
+	margin-top: 5px;
+    width: 300px;
+    height: 190px;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 5px;
+	box-shadow: 0 0 10px black;
+	transform: scale(0.85);
+    transition: all ease 0.2s;
+}
+.ImgDemonst:hover {
+    transform: scale(0.95);
+}
+.Demonst button.slick-prev {
+    font-size: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    position: absolute;
+    top: 160px;
+	left: 3%;
+	width: 6%;
+    max-width: 40px;
+    height: 100px;
+    background: rebeccapurple;
+    border: 0px;
+    cursor: pointer;
+}
+.Demonst button.slick-next {
+    font-size: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    position: absolute;
+    top: 160px;
+    right: 3%;
+    width: 6%;
+    max-width: 40px;
+    height: 100px;
+    background: rebeccapurple;
+    border: 0px;
+    cursor: pointer;
+}
+/* F */
+
+/* Parte: StereOnline */
+#StereOnline {
+	width: auto;
+	height: auto;
+	margin: auto;
+	padding: 10px 50px 10px 50px;
+	border-radius: 10px;
+}
+/* Conteiner 1 | Seção StereOnline */
+#conterStereOnline1 {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 5px;
+	min-height: 110px;
+	margin-bottom: 10px;
+}
+#StereOnline_img {
+	width: 15%;
+	min-width: 75px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px black;
+}
+#StereOnline_escrita {
+	width: 1000px;
+	height: 100%;
+}
+#StereOnline_escrita h1 {
+	margin-bottom: 5px; 
+}
+#StereOnline_escrita p {
+	margin-left: 20px;
+	margin-bottom: 2px;
+}
+/* Conteiner 2 | Seção StereOnline */
+#conterStereOnline2 {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-radius: 5px;
+	margin-bottom: 2px;
+}
+#StereOnline_escrita2 {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+#StereOnline_escrita2 p {
+	margin-left: 2px;
+	margin-bottom: 2px;
+}
+/* F */
+
+/* Parte: Carros */
+#Carros {
+	width: auto;
+	height: auto;
+	margin: auto;
+	padding: 10px 50px 10px 50px;
+	border-radius: 10px;
+}
+#BannerCarros {
+	margin-top: 50px;
+	margin-bottom: 25px;
+	width: auto;
+	height: 120px;
+	border: 3px solid #451BC2;
+	box-shadow: 0 0 10px black;
+	border-radius: 10px;
+}
+#BannerCarros img {
+	width: 100%;
+	max-height: 100px;
+	height: auto;
+	border-radius: 6px;
+}
+.Carro {
+	width: 90%;
+	height: auto;
+	border: 2px solid purple;
+	box-shadow: 0 0 10px black;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: #451BC2;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.Carro img {
+	width: 100px;
+	height: 100px;
+	border-radius: 5px;
+	margin-left: 50px;
+	margin-right: 20px;
+	box-shadow: 0 0 10px black;
+}
+.Carro div {
+	width: 1000px;
+	height: 90%;
+	margin-right: 10px;
+}
+.Carro h1 {
+}
+.Carro p {
+	margin-left: 20px;
+	margin-top: 5px;
+	height: 100%;
+}
+/* F */
+
+/* Conteudo */
+/* Definições anteriores mantidas para ficar bonito(os espaços corretamente) */
+#Conteudo {
+	width: 100%;
+	height: auto;
+}
+#MN_contd {
+	width: 85%;
+	height: auto;
+	margin: auto;
+}
+#MN_contd p {
+	margin: auto;
+}
+
+.B_contd {
+	width: 90%;
+	height: auto;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.Linha_Cont {
+	border: 1px solid rgb(37, 5, 68);
+	width: 90%;
+	margin: auto;
+}
+.B_contd h2 {
+	padding-left: 10px;
+}
+/* F */
+
+ REACTS 
+
+
+
+ /* OBS */
+ /* Blocos Conteudo */
+ .B_contd {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    background: rebeccapurple;
+    border: 2px solid rgb(37, 5, 68);
+    border-radius: 5px;
+	box-shadow: 0 0 10px black;
+}
+/* Sub Blocos Conteudo */
+ .subB_contd {
+	width: auto;
+	cursor: pointer;
+	transform: scale(0.85);
+	transition: all ease 0.2s;
+	display: inline-block;
+	text-align: center;
+}
+.subB_contd:hover {
+    transform: scale(0.95);
+}
+.AM {
+	width: 340px;
+	height: 191px;
+	border: 1px solid purple;
+	box-shadow: 0 0 20px black;
+	margin: auto;
+}
+/* F */
+
+/* Conteudo: REACT */
+ .contd-REACT {
+    width: 85%;
+    height: auto;
+    overflow-x: hidden;
+	margin: auto;
+}
+.contd-REACT button.slick-prev {
+    font-size: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    position: absolute;
+    margin-top: 90px;
+	left: 5%;
+	width: 6%;
+    max-width: 40px;
+	height: 40px;
+    background: rebeccapurple;
+    border: 0px;
+	cursor: pointer;
+	background-image: url("../Img/seta-E.png");
+	background-size: 100% 100%;
+}
+.contd-REACT button.slick-next {
+    font-size: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    position: absolute;
+    margin-top: -120px;
+    right: 4%;
+    width: 6%;
+    max-width: 40px;
+    height: 40px;
+    background: rebeccapurple;
+    border: 0px;
+	cursor: pointer;
+	background-image: url("../Img/seta-D.png");
+	background-size: 100% 100%;
+}
+/* F */
+
+/* Conteudo: IRL */
+.contd-IRL {
+    width: 85%;
+    height: auto;
+    overflow-x: hidden;
+	margin: auto;
+}
+.contd-IRL button.slick-prev {
+    font-size: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    position: absolute;
+    margin-top: 90px;
+	left: 5%;
+	width: 6%;
+    max-width: 40px;
+    height: 40px;
+    background: rebeccapurple;
+    border: 0px;
+	cursor: pointer;
+	background-image: url("../Img/seta-E.png");
+	background-size: 100% 100%;
+}
+.contd-IRL button.slick-next {
+    font-size: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    position: absolute;
+    margin-top: -120px;
+    right: 4%;
+    width: 6%;
+    max-width: 40px;
+    height: 40px;
+    background: rebeccapurple;
+    border: 0px;
+	cursor: pointer;
+	background-image: url("../Img/seta-D.png");
+	background-size: 100% 100%;
+}
+/* F */
+
+/* Conteudo: GAME PLAY */
+.contd-GP {
+    width: 85%;
+    height: auto;
+    overflow-x: hidden;
+	margin: auto;
+}
+.contd-GP button.slick-prev {
+    font-size: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    position: absolute;
+    margin-top: 90px;
+	left: 5%;
+	width: 6%;
+    max-width: 40px;
+    height: 40px;
+    background: rebeccapurple;
+    border: 0px;
+	cursor: pointer;
+	background-image: url("../Img/seta-E.png");
+	background-size: 100% 100%;
+}
+.contd-GP button.slick-next {
+    font-size: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    position: absolute;
+    margin-top: -120px;
+    right: 4%;
+    width: 6%;
+    max-width: 40px;
+    height: 40px;
+    background: rebeccapurple;
+    border: 0px;
+	cursor: pointer;
+	background-image: url("../Img/seta-D.png");
+	background-size: 100% 100%;
+}
+/* F */
+
+/* F */
+
+
+/* Parte: Patrocinio */
+#Patrocinio_Tt {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+#Patrocinio_Tt section {
+	padding: 0px;
+	width: 95%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around
+}
+#Patrocinio_Tt section a {
+    width: 600px;
+}
+#Patrocinio_Tt section img {
+	width: 90%;
+	height: 250px;
+	border-radius: 10px;
+	margin: 1% 5% 0% 5%;
+	box-shadow: 0 0 10px black;
+	border: 2px solid rgb(37, 5, 68);
+}
+
+/* Mini-merchan-fim */
+#Inf_Final {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+.Mini_merchan {
+	width: 25%;
+	height: auto;
+	margin: 5px;
+	min-width: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	background-image: url("../Img/Fundo_Mini_merchan.jpg");
+	border-radius: 5px;
+	box-shadow: 0 0 5px black;
+}
+.Mini_merchan img {
+	width: 80px;
+	height: 80px;
+	border-radius: 5px;
+	margin: 10px;
+}
+.Mini_merchan img:hover {
+    transform: scale(1.15);
+}
+.Mini_merchan h1 {
+	margin-left: 20px;
+	color: whitesmoke;
+}
+.Mini_merchan h1 a {
+	text-decoration: none;
+	color: aliceblue;	
+}
+.Mini_merchan h1 a:hover {
+	color: #1F4963;
+}
+/* F */
+/* F */
+
+/* Rodapé */
+#Rodape {
+	border: 1px solid;
+	width: 99%;
+	height: 100%;
+}
+#mns {
+	float: left;
+}
+#face_insta {
+	float: right;
+}
+#p1 {
+	height: 40px;
+	width: 40px;
+}
+#p2 {
+	height: 40px;
+	width: 40px;
+}
+/* F */

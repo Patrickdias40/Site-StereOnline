@@ -140,9 +140,10 @@ main {
 	width: 6%;
     max-width: 40px;
     height: 100px;
-    background: rebeccapurple;
+    background: purple;
     border: 0px;
     cursor: pointer;
+    opacity: 0.2;
 }
 .Demonst button.slick-next {
     font-size: 0px;
@@ -154,9 +155,10 @@ main {
     width: 6%;
     max-width: 40px;
     height: 100px;
-    background: rebeccapurple;
+	background: purple;
     border: 0px;
     cursor: pointer;
+    opacity: 0.2;
 }
 /* F */
 
@@ -368,7 +370,8 @@ main {
 	width: 6%;
     max-width: 40px;
 	height: 40px;
-    background: rebeccapurple;
+    background: purple;
+    opacity: 0.9;
     border: 0px;
 	cursor: pointer;
 	background-image: url("../Img/seta-E.png");
@@ -384,7 +387,8 @@ main {
     width: 6%;
     max-width: 40px;
     height: 40px;
-    background: rebeccapurple;
+    background: purple;
+    opacity: 0.9;
     border: 0px;
 	cursor: pointer;
 	background-image: url("../Img/seta-D.png");
@@ -409,7 +413,8 @@ main {
 	width: 6%;
     max-width: 40px;
     height: 40px;
-    background: rebeccapurple;
+    background: purple;
+    opacity: 0.9;
     border: 0px;
 	cursor: pointer;
 	background-image: url("../Img/seta-E.png");
@@ -425,7 +430,8 @@ main {
     width: 6%;
     max-width: 40px;
     height: 40px;
-    background: rebeccapurple;
+    background: purple;
+    opacity: 0.9;
     border: 0px;
 	cursor: pointer;
 	background-image: url("../Img/seta-D.png");
@@ -450,7 +456,8 @@ main {
 	width: 6%;
     max-width: 40px;
     height: 40px;
-    background: rebeccapurple;
+    background: purple;
+    opacity: 0.9;
     border: 0px;
 	cursor: pointer;
 	background-image: url("../Img/seta-E.png");
@@ -466,7 +473,8 @@ main {
     width: 6%;
     max-width: 40px;
     height: 40px;
-    background: rebeccapurple;
+    background: purple;
+    opacity: 0.9;
     border: 0px;
 	cursor: pointer;
 	background-image: url("../Img/seta-D.png");

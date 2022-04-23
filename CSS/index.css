@@ -369,12 +369,12 @@ main {
 	left: 5%;
 	width: 6%;
     max-width: 40px;
-	height: 40px;
+	height: 70px;
     background: purple;
     opacity: 0.9;
     border: 0px;
 	cursor: pointer;
-	background-image: url("../Img/seta-E.png");
+	background-image: url("../Img/seta_esquerda.png");
 	background-size: 100% 100%;
 }
 .contd-REACT button.slick-next {
@@ -382,16 +382,16 @@ main {
     border-radius: 10px;
     box-shadow: 0 0 5px black;
     position: absolute;
-    margin-top: -120px;
+    margin-top: -140px;
     right: 4%;
     width: 6%;
     max-width: 40px;
-    height: 40px;
+    height: 70px;
     background: purple;
     opacity: 0.9;
     border: 0px;
 	cursor: pointer;
-	background-image: url("../Img/seta-D.png");
+	background-image: url("../Img/seta_direita.png");
 	background-size: 100% 100%;
 }
 /* F */
@@ -412,12 +412,12 @@ main {
 	left: 5%;
 	width: 6%;
     max-width: 40px;
-    height: 40px;
+    height: 70px;
     background: purple;
     opacity: 0.9;
     border: 0px;
 	cursor: pointer;
-	background-image: url("../Img/seta-E.png");
+	background-image: url("../Img/seta_esquerda.png");
 	background-size: 100% 100%;
 }
 .contd-IRL button.slick-next {
@@ -425,16 +425,16 @@ main {
     border-radius: 10px;
     box-shadow: 0 0 5px black;
     position: absolute;
-    margin-top: -120px;
+    margin-top: -140px;
     right: 4%;
     width: 6%;
     max-width: 40px;
-    height: 40px;
+    height: 70px;
     background: purple;
     opacity: 0.9;
     border: 0px;
 	cursor: pointer;
-	background-image: url("../Img/seta-D.png");
+	background-image: url("../Img/seta_direita.png");
 	background-size: 100% 100%;
 }
 /* F */
@@ -455,12 +455,12 @@ main {
 	left: 5%;
 	width: 6%;
     max-width: 40px;
-    height: 40px;
+    height: 70px;
     background: purple;
     opacity: 0.9;
     border: 0px;
 	cursor: pointer;
-	background-image: url("../Img/seta-E.png");
+	background-image: url("../Img/seta_esquerda.png");
 	background-size: 100% 100%;
 }
 .contd-GP button.slick-next {
@@ -468,16 +468,16 @@ main {
     border-radius: 10px;
     box-shadow: 0 0 5px black;
     position: absolute;
-    margin-top: -120px;
+    margin-top: -140px;
     right: 4%;
     width: 6%;
     max-width: 40px;
-    height: 40px;
+    height: 70px;
     background: purple;
     opacity: 0.9;
     border: 0px;
 	cursor: pointer;
-	background-image: url("../Img/seta-D.png");
+	background-image: url("../Img/seta_direita.png");
 	background-size: 100% 100%;
 }
 /* F */

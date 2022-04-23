@@ -238,12 +238,8 @@ main {
 	border: 3px solid #451BC2;
 	box-shadow: 0 0 10px black;
 	border-radius: 10px;
-}
-#BannerCarros img {
-	width: 100%;
-	max-height: 100px;
-	height: auto;
-	border-radius: 6px;
+	background-image: url("../Img/BannerCarro.png");
+	background-size: 100% 100%;
 }
 .Carro {
 	width: 90%;
@@ -360,17 +356,19 @@ main {
     overflow-x: hidden;
 	margin: auto;
 }
+.contd-REACT button:hover {
+	transform: scale(1.15);
+}
 .contd-REACT button.slick-prev {
     font-size: 0px;
     border-radius: 10px;
-    box-shadow: 0 0 5px black;
     position: absolute;
     margin-top: 90px;
 	left: 5%;
 	width: 6%;
     max-width: 40px;
 	height: 70px;
-    background: purple;
+    background: white;
     opacity: 0.9;
     border: 0px;
 	cursor: pointer;
@@ -380,14 +378,13 @@ main {
 .contd-REACT button.slick-next {
     font-size: 0px;
     border-radius: 10px;
-    box-shadow: 0 0 5px black;
     position: absolute;
     margin-top: -140px;
     right: 4%;
     width: 6%;
     max-width: 40px;
     height: 70px;
-    background: purple;
+    background: white;
     opacity: 0.9;
     border: 0px;
 	cursor: pointer;
@@ -403,17 +400,19 @@ main {
     overflow-x: hidden;
 	margin: auto;
 }
+.contd-IRL button:hover {
+	transform: scale(1.15);
+}
 .contd-IRL button.slick-prev {
     font-size: 0px;
     border-radius: 10px;
-    box-shadow: 0 0 5px black;
     position: absolute;
     margin-top: 90px;
 	left: 5%;
 	width: 6%;
     max-width: 40px;
     height: 70px;
-    background: purple;
+    background: white;
     opacity: 0.9;
     border: 0px;
 	cursor: pointer;
@@ -423,14 +422,13 @@ main {
 .contd-IRL button.slick-next {
     font-size: 0px;
     border-radius: 10px;
-    box-shadow: 0 0 5px black;
     position: absolute;
     margin-top: -140px;
     right: 4%;
     width: 6%;
     max-width: 40px;
     height: 70px;
-    background: purple;
+    background: white;
     opacity: 0.9;
     border: 0px;
 	cursor: pointer;
@@ -446,18 +444,19 @@ main {
     overflow-x: hidden;
 	margin: auto;
 }
+.contd-GP button:hover {
+	transform: scale(1.15);
+}
 .contd-GP button.slick-prev {
     font-size: 0px;
     border-radius: 10px;
-    box-shadow: 0 0 5px black;
     position: absolute;
     margin-top: 90px;
 	left: 5%;
 	width: 6%;
     max-width: 40px;
     height: 70px;
-    background: purple;
-    opacity: 0.9;
+    background: white;
     border: 0px;
 	cursor: pointer;
 	background-image: url("../Img/seta_esquerda.png");
@@ -466,14 +465,13 @@ main {
 .contd-GP button.slick-next {
     font-size: 0px;
     border-radius: 10px;
-    box-shadow: 0 0 5px black;
     position: absolute;
     margin-top: -140px;
     right: 4%;
     width: 6%;
     max-width: 40px;
     height: 70px;
-    background: purple;
+    background: white;
     opacity: 0.9;
     border: 0px;
 	cursor: pointer;
@@ -530,7 +528,7 @@ main {
 	min-width: 400px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	align-items: center;
 	background-image: url("../Img/Fundo_Mini_merchan.jpg");
 	border-radius: 5px;
@@ -540,14 +538,15 @@ main {
 	width: 80px;
 	height: 80px;
 	border-radius: 5px;
-	margin: 10px;
+	left: 15px;
+	margin: 5px;
 }
 .Mini_merchan img:hover {
     transform: scale(1.15);
 }
 .Mini_merchan h1 {
-	margin-left: 20px;
 	color: whitesmoke;
+	font-size: 45px;
 }
 .Mini_merchan h1 a {
 	text-decoration: none;

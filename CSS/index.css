@@ -266,7 +266,7 @@ main {
 	box-shadow: 0 0 10px black;
 }
 .Carro div {
-	//Arrumar isso corretamente o tamanho do widt h para não bugar em telas maiores!
+	/* Arrumar isso corretamente o tamanho do widt h para não bugar em telas maiores!*/
 	width: 1500px;
 	height: 90%;
 	margin-right: 10px;

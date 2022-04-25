@@ -232,7 +232,9 @@ main {
 #BannerCarros {
 	margin-top: 50px;
 	margin-bottom: 25px;
-	width: auto;
+	margin-left: auto;
+    margin-right: auto;
+    width: 95%;
 	height: 120px;
 	border: 3px solid #451BC2;
 	box-shadow: 0 0 10px black;

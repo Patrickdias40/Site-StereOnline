@@ -184,14 +184,13 @@ main {
 }
 #StereOnline_img {
 	width: 15%;
-	min-width: 75px;
+	min-width: 100px;
 	margin-right: 20px;
 	margin-left: 20px;
 	border-radius: 5px;
 	box-shadow: 0 0 10px black;
 }
 #StereOnline_escrita {
-	width: 1000px;
 	height: 100%;
 }
 #StereOnline_escrita h1 {

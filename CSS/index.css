@@ -1,583 +1,364 @@
 * {
-	margin: 0px;
-	padding: 0px;
-}
-p {
-	font-size: 25px;
-}
-h1 {
-	font-size: 50px;
-}
-/* Cabeçalho */
-header {
-	width: 100%;
-	height: auto;
-	background: black;
-	padding: 5px 0px 5px 0px;
-	position: absolute;
-}
-#Cab {
-	width: 95%;
-	height: 100%;
-	margin: auto;
-	padding: 10px 5px 10px 5px;
-	display: flex;
-	flex-direction:  row;
-	align-items: center;
-	justify-content: space-between;
-	background: black;
-	color: white;
-}
-#Cab-Logo {
-	border: 1px solid darkred;
-	width: 40px;
-	height: 40px;
-}
-#img_Logo {
-	border: 1px solid darkred;
-	width: 40px;
-	height: 40px;
-}
-#Cab-nome {
-	border: 1px solid rosybrown;
-	width: 300px;
-	height: 40px;
-}
-#Cab-Conta {
-	width: auto;
-	height: auto;
-}
-#brs_Conta {
-	float: right;
-	border: 1px solid purple;
-	border-radius: 3px;
-	width: 30px;
-	height: 27px;
-}
-.brs {
-	border: 1px solid white;
-	width: 18px;
-	height: 0px;
-	margin: 5px;
-}
-/* F */
+    margin: 0px;
+    padding: 0px;
+    font-family: "Orbitron", sans-serif;
+} 
 
-#espaco {
-	width: 100%;
-	height: 80px;
-	background: rebeccapurple;
+:root {
+    --body-color: #c0c0c0;
+    --geral-color: #2B2B2B;
+    --texto-color: #ffffff;
+    --detalhesverde: #2E3022;
+    --brancofixo: #ffffff;
+    --hover: #A3AB78;
 }
 
-.checkpont {
-	width: 10%;
-	margin: auto;
+/* class para teste qualquer teste so modificar conforme nescessario
+
+.teste {
+    width: 100%;
+    border: 2px solid red;
 }
 
+*/
 
-/* Main */
-main {
-	width: 100%;
-	height: 100%;
-	background: white;
-	padding-top: 30px;
-	padding-bottom: 10px;
+h1{
+    font-size: 45px;
 }
-/* F */
+h2{
+    text-align: center;
+}
+p{
+    font-size: medium;
+}
 
-/* Linhas */
-.Linha {
-	border: 1px solid #451BC2;
-	margin: 60px 20px 0px 20px;
+h3{
+    font-size: 20px;
+    margin: 5px 0px 1px 20px;
 }
-.sub_Linha {
-	width: 40%;
-	height: 15px;
-	background: #451BC2;
-	margin: auto;
-	margin-bottom: 55px;
-	border-radius: 1px;
-}
-/* F */
 
-/* Atalhos principais(Demonstração) */
-/* Demons (Parte NOVA) */
-.Demonst-t {
-    width: 95%;
-    height: auto;
-    margin: auto;
-    background: linear-gradient( to bottom right, rgb(37, 5, 68), #002076, rgb(37, 5, 68));
-    border: 2px solid rgb(37, 5, 68);
-    border-radius: 5px;
-	box-shadow: 0 0 10px black;
+a{
+    text-decoration: none;
+    color: var(--brancofixo)
 }
-.Demonst {
-    width: 85%;
-    height: auto;
-    overflow-x: hidden;
-	margin: auto;
+
+body{
+    /*background: linear-gradient( to bottom, #000000 0.1%,#042326, #0A3A40, #1D7373 50%, #042326, #000000);*/
+    min-height: 100vh;
 }
-.ImgDemonst {
-	margin-top: 5px;
-    width: 300px;
-    height: 190px;
-	display: inline-block;
-	cursor: pointer;
-	border-radius: 5px;
-	box-shadow: 0 0 10px black;
-	transform: scale(0.85);
-    transition: all ease 0.2s;
-}
-.ImgDemonst:hover {
-    transform: scale(0.95);
-}
-.Demonst button.slick-prev {
-    font-size: 0px;
-    border-radius: 10px;
-    box-shadow: 0 0 5px black;
-    position: absolute;
-    top: 160px;
-	left: 3%;
-	width: 6%;
-    max-width: 40px;
-    height: 100px;
-    background: purple;
-    border: 0px;
+
+button{
+    border: none;
     cursor: pointer;
-    opacity: 0.2;
+    color: var(--brancofixo);
+    background-color: #2B2B2B;
 }
-.Demonst button.slick-next {
-    font-size: 0px;
-    border-radius: 10px;
-    box-shadow: 0 0 5px black;
-    position: absolute;
-    top: 160px;
-    right: 3%;
-    width: 6%;
-    max-width: 40px;
-    height: 100px;
-	background: purple;
-    border: 0px;
-    cursor: pointer;
-    opacity: 0.2;
+/* Cabeçalho todo com letras brancas sempre */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #2B2B2B;
+    box-shadow: 0 0 10px var(--detalhesverde);
+    border-bottom: 3px solid var(--detalhesverde);
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    color: var(--brancofixo);
 }
-/* F */
-
-/* Parte: StereOnline */
-#StereOnline {
-	width: auto;
-	height: auto;
-	margin: auto;
-	padding: 10px 50px 10px 50px;
-	border-radius: 10px;
+/* Cabeçalho todo com letras brancas sempre */
+.logo {
+    margin-left: 30px;
 }
-/* Conteiner 1 | Seção StereOnline */
-#conterStereOnline1 {
-	width: 100%;
-	height: auto;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	border-radius: 5px;
-	min-height: 110px;
-	margin-bottom: 10px;
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    font-size: small;
 }
-#StereOnline_img {
-	width: 15%;
-	min-width: 100px;
-	margin-right: 20px;
-	margin-left: 20px;
-	border-radius: 5px;
-	box-shadow: 0 0 10px black;
-}
-#StereOnline_escrita {
-	height: 100%;
-}
-#StereOnline_escrita h1 {
-	margin-bottom: 5px; 
-}
-#StereOnline_escrita p {
-	margin-left: 20px;
-	margin-bottom: 2px;
-}
-/* Conteiner 2 | Seção StereOnline */
-#conterStereOnline2 {
-	width: 100%;
-	height: auto;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	border-radius: 5px;
-	margin-bottom: 2px;
-}
-#StereOnline_escrita2 {
-	width: 100%;
-	height: 100%;
-	margin: auto;
-}
-#StereOnline_escrita2 p {
-	margin-left: 2px;
-	margin-bottom: 2px;
-}
-/* F */
-
-/* Parte: Carros */
-#Carros {
-	width: auto;
-	height: auto;
-	margin: auto;
-	padding: 10px 50px 10px 50px;
-	border-radius: 10px;
-}
-#BannerCarros {
-	margin-top: 50px;
-	margin-bottom: 25px;
-	margin-left: auto;
-    margin-right: auto;
-    width: 95%;
-	height: 120px;
-	border: 3px solid #451BC2;
-	box-shadow: 0 0 10px black;
-	border-radius: 10px;
-	background-image: url("../Img/BannerCarro.png");
-	background-size: 100% 100%;
-}
-.Carro {
-	width: 90%;
-	height: auto;
-	border: 2px solid purple;
-	box-shadow: 0 0 10px black;
-	border-radius: 10px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	background: #451BC2;
-	margin: auto;
-	margin-top: 20px;
-	margin-bottom: 15px;
-}
-.Carro img {
-	width: 100px;
-	height: 100px;
-	border-radius: 5px;
-	margin-left: 50px;
-	margin-right: 20px;
-	box-shadow: 0 0 10px black;
-}
-.Carro div {
-	/* Arrumar isso corretamente o tamanho do widt h para não bugar em telas maiores!*/
-	width: 1500px;
-	height: 90%;
-	margin-right: 10px;
-}
-.Carro h1 {
-}
-.Carro p {
-	margin-left: 20px;
-	margin-top: 5px;
-	height: 100%;
-}
-/* F */
-
-/* Conteudo */
-/* Definições anteriores mantidas para ficar bonito(os espaços corretamente) */
-#Conteudo {
-	width: 100%;
-	height: auto;
-}
-#MN_contd {
-	width: 85%;
-	height: auto;
-	margin: auto;
-}
-#MN_contd p {
-	margin: auto;
+.menu ul li {
+    margin: 5px 10px;
 }
 
-.B_contd {
-	width: 90%;
-	height: auto;
-	margin: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding: 10px;
+@media (min-width: 1100px) {
+  .menu ul li {
+    font-size: medium;
+  }
 }
-.Linha_Cont {
-	border: 1px solid rgb(37, 5, 68);
-	width: 90%;
-	margin: auto;
+@media (max-width: 930px) {
+  .someparte1 {
+    display: none;
+  }
 }
-.B_contd h2 {
-	padding-left: 10px;
+@media (max-width: 700px) {
+  .someparte2 {
+    display: none;
+  }
 }
-/* F */
+#bt-menu-fecha {
+    display: none;
+}
 
- REACTS 
+.bt-modo-escuro {
+    width: 30px;
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 50%;
+}
+#sol {
+    display: none;
+}
 
+.icon-hover:hover {
+    color: var(--hover);
+}
+a:hover {
+    color: var(--hover);
+}
 
-
- /* OBS */
- /* Blocos Conteudo */
- .B_contd {
-    width: 95%;
-    height: auto;
+    /*Menu Lateral/mini*/
+.menuLateral {
+    position: fixed;
+    height: 97vh;
+    width: 45%;
+    min-width: 300px;
+    right: 0%;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px black;
+    padding-top: 20px;
+    z-index: 3;
+    display: none;
+    flex-direction: column;
+}
+.item-menu-lateral {
+    height: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px 0px 15px 0px;
+}
+.item-menu-lateral a {
+    color: var(--brancofixo);
+    font-family: "Stack Sans Notch", sans-serif;
+    font-size: larger;
+}
+.barra {
+    width: 90%;
     margin: auto;
-    background: rebeccapurple;
-    border: 2px solid rgb(37, 5, 68);
-    border-radius: 5px;
-	box-shadow: 0 0 10px black;
+    border: 2px solid var(--detalhesverde);
 }
-/* Sub Blocos Conteudo */
- .subB_contd {
-	width: auto;
-	cursor: pointer;
-	transform: scale(0.85);
-	transition: all ease 0.2s;
-	display: inline-block;
-	text-align: center;
-}
-.subB_contd:hover {
-    transform: scale(0.95);
-}
-.AM {
-	width: 340px;
-	height: 191px;
-	border: 1px solid purple;
-	box-shadow: 0 0 20px black;
-	margin: auto;
-}
-/* F */
 
-/* Conteudo: REACT */
- .contd-REACT {
-    width: 85%;
+
+/*Apresentação Inicial*/
+/*Video*/
+.cont-vid {
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    z-index: -2;
+}
+.cont-vid iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 0 20px #000000;
+}
+/*Filtro do video*/
+.filtro {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    background: linear-gradient(90deg,rgba(0, 1, 10, 1) 0%, rgba(37, 18, 179, 0.48) 57%, rgba(0, 1, 10, 1) 100%);
+}
+main{
+    padding-top: 30px;
+}
+/*Conteudo da apresentacao - fica em cima do video*/
+.Aprest {
+    height: 550px;
+    display: flex;
+    margin-bottom: 40px;
+    color: var(--brancofixo);
+}
+.contdo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 3%;
+    padding: 3% 10%;
+}
+.contdo-ft-rsm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 5%;
+}
+.contdo-ft-rsm img {
+    min-width: 120px;
+    width: 20%;
+    max-width: 180px;
+    border-radius: 100px;
+    box-shadow: 0 0 10px black;
+}
+
+/*Geral - Todo o resto do conteudo - Conteudo principal*/ 
+.geral {
+    min-width: 650px;
+    max-width: 85%;
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--geral-color);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 0 20px #000000;
+    row-gap: 50px;
+    color: var(--body-color);
+}
+
+@media (min-width: 1400px) {
+  .geral {
+    width: 75%;
+  }
+}
+
+/*Geral - Live - Conteudo principal*/ 
+.Cont-Live {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+.Live {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+.IF-Live {
+    width: 100%;
+    aspect-ratio: 16 / 9;
     height: auto;
-    overflow-x: hidden;
-	margin: auto;
+
 }
-.contd-REACT button:hover {
-	transform: scale(1.15);
+/* Chat sumir qunado a tela for menor que 780px -- NAO ESTA ATIVO
+@media (max-width: 780px)  {
+    .IF-Chat {
+        display: none;
+    }
+
+    .IF-Live {
+        width: 100%;
+    }
 }
-.contd-REACT button.slick-prev {
-    font-size: 0px;
+*/
+
+/*Geral - Conteudo Historia - Conteudo principal*/ 
+.Contdo-Historia {
+    width: 90%;
+}
+
+/*Geral - Conteudo Offline - Conteudo principal*/ 
+.Contdo-offline {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Geral - Conteudo Offline - Videos*/ 
+.Amostradinha {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+.Item-Amostr {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    padding: 20px 15px;
     border-radius: 10px;
+    background-color: rgba(129, 130, 116, 0.15);
+}
+.Item-Amostr-Video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+.Item-Amostr iframe {
+    width:  100%;
+    height: 100%;
+    border-radius: 8px;
+
+}
+@media (min-width: 900px) {
+  .Item-Amostr {
+    width: 43%;
+  }
+  .Item-Amostr p{
+    font-size: medium;
+  }
+}
+@media (min-width: 1550px) {
+  .Item-Amostr {
+    width: 30%;
+  }
+}
+@media (min-width: 1820px) {
+  .Item-Amostr {
+    max-width: 430px;
+  }
+}
+
+/*Rodapé - Geral*/
+footer {
+    width: 100%;
+    z-index: -1;
     position: absolute;
-    margin-top: 90px;
-	left: 5%;
-	width: 6%;
-    max-width: 40px;
-	height: 70px;
-    background: white;
-    opacity: 0.9;
-    border: 0px;
-	cursor: pointer;
-	background-image: url("../Img/seta_esquerda.png");
-	background-size: 100% 100%;
+    color: var(--brancofixo);
+} 
+/*Rodapé - Links*/
+.links {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    column-gap: 3%;
+    align-items: center;
+    box-shadow: 0 0 10px var(--detalhesverde);
+    border-top: 3px solid var(--detalhesverde);
+    border-bottom: 3px solid black;
+    background-color: rgb(94, 165, 228);
 }
-.contd-REACT button.slick-next {
-    font-size: 0px;
-    border-radius: 10px;
+.links h2 {
+    font-size: medium;
+}
+/*Rodapé - Filtro*/
+.fter {
+    width: 100%;
+    height: 250px;
     position: absolute;
-    margin-top: -140px;
-    right: 4%;
-    width: 6%;
-    max-width: 40px;
-    height: 70px;
-    background: white;
-    opacity: 0.9;
-    border: 0px;
-	cursor: pointer;
-	background-image: url("../Img/seta_direita.png");
-	background-size: 100% 100%;
+    z-index: -2;
 }
-/* F */
-
-/* Conteudo: IRL */
-.contd-IRL {
-    width: 85%;
-    height: auto;
-    overflow-x: hidden;
-	margin: auto;
-}
-.contd-IRL button:hover {
-	transform: scale(1.15);
-}
-.contd-IRL button.slick-prev {
-    font-size: 0px;
-    border-radius: 10px;
+.fter img {
     position: absolute;
-    margin-top: 90px;
-	left: 5%;
-	width: 6%;
-    max-width: 40px;
-    height: 70px;
-    background: white;
-    opacity: 0.9;
-    border: 0px;
-	cursor: pointer;
-	background-image: url("../Img/seta_esquerda.png");
-	background-size: 100% 100%;
+    width: 100%;
+    height: 98%;
+    bottom: 0;
+    z-index: -1;
 }
-.contd-IRL button.slick-next {
-    font-size: 0px;
-    border-radius: 10px;
-    position: absolute;
-    margin-top: -140px;
-    right: 4%;
-    width: 6%;
-    max-width: 40px;
-    height: 70px;
-    background: white;
-    opacity: 0.9;
-    border: 0px;
-	cursor: pointer;
-	background-image: url("../Img/seta_direita.png");
-	background-size: 100% 100%;
-}
-/* F */
-
-/* Conteudo: GAME PLAY */
-.contd-GP {
-    width: 85%;
-    height: auto;
-    overflow-x: hidden;
-	margin: auto;
-}
-.contd-GP button:hover {
-	transform: scale(1.15);
-}
-.contd-GP button.slick-prev {
-    font-size: 0px;
-    border-radius: 10px;
-    position: absolute;
-    margin-top: 90px;
-	left: 5%;
-	width: 6%;
-    max-width: 40px;
-    height: 70px;
-    background: white;
-    border: 0px;
-	cursor: pointer;
-	background-image: url("../Img/seta_esquerda.png");
-	background-size: 100% 100%;
-}
-.contd-GP button.slick-next {
-    font-size: 0px;
-    border-radius: 10px;
-    position: absolute;
-    margin-top: -140px;
-    right: 4%;
-    width: 6%;
-    max-width: 40px;
-    height: 70px;
-    background: white;
-    opacity: 0.9;
-    border: 0px;
-	cursor: pointer;
-	background-image: url("../Img/seta_direita.png");
-	background-size: 100% 100%;
-}
-/* F */
-
-/* F */
-
-
-/* Parte: Patrocinio */
-#Patrocinio_Tt {
-	width: 100%;
-	height: auto;
-	display: flex;
-	justify-content: center;
-}
-#Patrocinio_Tt section {
-	padding: 0px;
-	width: 95%;
-	height: auto;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around
-}
-#Patrocinio_Tt section a {
-    width: 600px;
-}
-#Patrocinio_Tt section img {
-	width: 90%;
-	height: 250px;
-	border-radius: 10px;
-	margin: 1% 5% 0% 5%;
-	box-shadow: 0 0 10px black;
-	border: 2px solid rgb(37, 5, 68);
-}
-
-/* Mini-merchan-fim */
-#Inf_Final {
-	width: 100%;
-	height: auto;
-	margin: auto;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin-top: 40px;
-	margin-bottom: 10px;
-}
-.Mini_merchan {
-	width: 25%;
-	height: auto;
-	margin: 5px;
-	min-width: 400px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	background-image: url("../Img/Fundo_Mini_merchan.jpg");
-	border-radius: 5px;
-	box-shadow: 0 0 5px black;
-}
-.Mini_merchan img {
-	width: 80px;
-	height: 80px;
-	border-radius: 5px;
-	left: 15px;
-	margin: 5px;
-}
-.Mini_merchan img:hover {
-    transform: scale(1.15);
-}
-.Mini_merchan h1 {
-	color: whitesmoke;
-	font-size: 45px;
-}
-.Mini_merchan h1 a {
-	text-decoration: none;
-	color: aliceblue;	
-}
-.Mini_merchan h1 a:hover {
-	color: #1F4963;
-}
-/* F */
-/* F */
-
-/* Rodapé */
-#Rodape {
-	border: 1px solid;
-	width: 99%;
-	height: 100%;
-}
-#mns {
-	float: left;
-}
-#face_insta {
-	float: right;
-}
-#p1 {
-	height: 40px;
-	width: 40px;
-}
-#p2 {
-	height: 40px;
-	width: 40px;
-}
-/* F */
